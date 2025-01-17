@@ -64,6 +64,17 @@ body {
   border-radius: 0.5em;
 }
 
+.banner-contents>a:hover {
+  background-color: rgba(229, 84, 115, 1);
+  box-shadow: 0px 4px 24px 0px rgba(229, 84, 115, 0.36);
+  transition-property: box-shadow;
+}
+
+.banner-contents>a:hover{
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
 .img-content {
   display: inline-flex;
   max-width: 50%;
