@@ -70,7 +70,7 @@ body {
   transition-property: box-shadow;
 }
 
-.banner-contents>a:hover{
+.banner-contents>a:hover {
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
@@ -87,6 +87,119 @@ body {
   height: auto;
   align-self: flex-end;
 }
+
+
+
+/* Featured Flowers Section CSS */
+.feat-flrs {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  width: 100dvw;
+  align-items: center;
+  padding: 120px 200px;
+}
+
+.sec-heading {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  height: auto;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.sec-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(39, 39, 39, 1)
+}
+
+.sec-sub {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.sec-cards {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 48px;
+}
+
+.flr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flr-card>a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 1);
+}
+
+.card-img {
+  display: flex;
+  width: 100%;
+  height: 33rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 50% 50% 0 0;
+}
+
+.card-img>img {
+  max-width: 70%;
+  height: auto;
+  margin-top: auto;
+}
+
+#img-2 {
+  margin: auto 0;
+}
+
+.services-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 100%;
+  padding: 80px 172px;
+  margin-top: 128px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 0.5rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.services>img {
+  width: 20%;
+  height: auto;
+}
+
+.services>span {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgba(39, 39, 39, 0.8);
+}
+
+
+
+
+
+
+
+
+
 
 /* Responsive design for extra large screens max-width (1400px) */
 
@@ -109,6 +222,7 @@ body {
   }
 
 }
+
 
 
 /* Responsive design for extra large screens max-width (1200px) */
