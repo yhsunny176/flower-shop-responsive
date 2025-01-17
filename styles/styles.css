@@ -189,6 +189,7 @@ body {
 .services>span {
   font-weight: 600;
   font-size: 1.3rem;
+  text-align: center;
   color: rgba(39, 39, 39, 0.8);
 }
 
@@ -205,6 +206,7 @@ body {
 
 @media screen and (max-width: 1400px) {
 
+  /* Banner section responsive css */
   .banner {
     height: 700px;
     padding: 0 140px;
@@ -219,6 +221,24 @@ body {
     display: inline-flex;
     max-width: 50%;
     height: inherit;
+  }
+
+  /* Featured flowers section responsive css */
+
+  .sec-heading {
+    max-width: 60%;
+  }
+
+  .card-img {
+    height: 24rem;
+  }
+
+  .services-card {
+    padding: 50px 146px;
+  }
+
+  .services>img {
+    width: 40%;
   }
 
 }
@@ -244,6 +264,24 @@ body {
     display: inline-flex;
     max-width: 50%;
     height: inherit;
+  }
+
+  /* Featured flowers section responsive css */
+  .sec-heading {
+    max-width: 100%;
+  }
+
+  .card-img {
+    height: 18rem;
+  }
+
+  .services-card {
+    gap: 40px;
+    padding: 50px 30px;
+  }
+
+  .services>img {
+    width: 30%;
   }
 
 }
@@ -303,6 +341,21 @@ body {
     border-radius: 0.5em;
   }
 
+  /* Featured flowers section responsive css */
+
+  .feat-flrs {
+    padding: 120px 120px;
+  }
+
+  .card-img {
+    height: 16rem;
+  }
+
+  .services-card {
+    gap: 40px;
+    padding: 50px 50px;
+  }
+
 }
 
 
@@ -343,6 +396,24 @@ body {
     background-color: rgba(229, 84, 115, 1);
     color: #FEFEFE;
     border-radius: 0.5em;
+  }
+
+  /* Featured flowers section css */
+  .feat-flrs {
+    padding: 120px 80px;
+  }
+
+  .card-img {
+    height: 14rem;
+  }
+
+  .services-card {
+    gap: 20px;
+    padding: 50px 30px;
+  }
+
+  .services>img {
+    width: 40%;
   }
 
 }
@@ -408,6 +479,68 @@ body {
 
   #banner-img {
     margin: 0;
+  }
+
+  /* Featured Flowers section responsive css */
+  .feat-flrs {
+    padding: 120px 80px;
+  }
+
+  .sec-heading {
+    height: auto;
+  }
+
+  .sec-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+
+  .card-img {
+    height: 28rem;
+  }
+
+  .card-img>img {
+    max-width: 50%;
+  }
+
+  .services-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+    padding: 80px 20px;
+  }
+
+
+  .services>img {
+    width: 20%;
+  }
+
+}
+
+
+@media screen and (max-width: 430px) {
+
+  /* Featured Flowers section responsive css */
+
+  .feat-flrs {
+    padding: 120px 30px;
+  }
+
+  .card-img {
+    height: 25rem;
+  }
+
+  .card-img>img {
+    max-width: 60%;
+  }
+
+  .services-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 60px;
+    padding: 80px 15px;
+  }
+
+  .services>img {
+    width: 25%;
   }
 
 }
