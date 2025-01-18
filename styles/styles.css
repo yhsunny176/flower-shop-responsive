@@ -202,6 +202,51 @@ body {
 }
 
 
+/* Sale section css */
+
+.sale-section{
+  display: flex;
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 100px 350px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sale-txts{
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sale-txts>h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(39, 39, 39, 1);
+}
+
+.sale-txts>p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 24px;
+}
+
+.sale-txts>h3>span {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(229, 84, 115, 1);
+}
+
+.sale-txts>a {
+  background-color: rgba(229, 84, 115, 1);
+  color: #FEFEFE;
+  padding: 20px 40px;
+  border-radius: 0.5rem;
+  margin-top: 32px;
+  text-decoration: none;
+}
 
 
 
